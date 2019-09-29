@@ -1,5 +1,5 @@
 list=(
-  'UPDATE_PACKAGES;programs/update_packages.sh;true'
+  'UPDATE_PACKAGES;programs/update_packages.sh;false'
   'REQUIRED_LIBS;programs/required_libs.sh;check_command curl'
   'GIT;programs/git.sh;check_command git'
   'GIT_BASHRC;bashrc/git.sh;check_bashrc functions/git.sh'
@@ -9,4 +9,5 @@ list=(
   'GITKRAKEN;programs/gitkraken.sh;check_command gitkraken'
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
   'MYSQL;programs/mysql.sh;check_command mysql'
+  'POSTGRES;programs/postgres.sh;check_command psql'
 )
