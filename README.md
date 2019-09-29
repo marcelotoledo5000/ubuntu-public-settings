@@ -1,15 +1,15 @@
 ```
 -------------------------------------------------------------------------------------------------------------------------------------
- [INFO] - UPDATE_PACKAGES IS ALREADY INSTALLED - PARAMS: UPDATE_PACKAGES | programs/update_packages.sh | without_command curl
+ [INFO] - UPDATE_PACKAGES IS ALREADY INSTALLED - PARAMS: UPDATE_PACKAGES | programs/update_packages.sh | check_command curl
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
- [INFO] - REQUIRED_LIBS IS ALREADY INSTALLED - PARAMS: REQUIRED_LIBS | programs/required_libs.sh | without_command curl
+ [INFO] - REQUIRED_LIBS IS ALREADY INSTALLED - PARAMS: REQUIRED_LIBS | programs/required_libs.sh | check_command curl
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
- [INFO] - GIT IS ALREADY INSTALLED - PARAMS: GIT | programs/git.sh | without_command git
+ [INFO] - GIT IS ALREADY INSTALLED - PARAMS: GIT | programs/git.sh | check_command git
 -------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------
- [INFO] - CHROME IS ALREADY INSTALLED - PARAMS: CHROME | programs/chrome.sh | without_source google-chrome arch=amd64
+ [INFO] - CHROME IS ALREADY INSTALLED - PARAMS: CHROME | programs/chrome.sh | check_source google-chrome arch=amd64
 -------------------------------------------------------------------------------------------------------------------------------------
 
 ...
