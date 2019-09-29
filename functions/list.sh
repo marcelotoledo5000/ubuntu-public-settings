@@ -21,6 +21,7 @@ list=(
   'ERLANG_22.1.1;asdf/erlang/v22.1.1.sh;check_asdf erlang 22.1.1'
   'ELIXIR_1.9.1;asdf/elixir/v1.9.1.sh;check_asdf elixir 1.9.1'
   'RUST_1.37.0;asdf/rust/v1.37.0.sh;check_asdf rust 1.37.0'
+  'NODEJS_10.16.0;asdf/nodejs/v10.16.0.sh;check_asdf nodejs 10.16.0'
 
   # BASHS
   'GIT_BASHRC;bash/git.sh;check_bashrc functions/git.sh'
