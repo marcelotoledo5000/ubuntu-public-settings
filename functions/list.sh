@@ -7,4 +7,5 @@ list=(
   'VSCODE;programs/vscode.sh;without_command code'
   'POSTMAN;programs/postman.sh;without_command postman'
   'GITKRAKEN;programs/gitkraken.sh;without_command gitkraken'
+  'SQLITE;programs/sqlite.sh;without_command sqlite3'
 )
