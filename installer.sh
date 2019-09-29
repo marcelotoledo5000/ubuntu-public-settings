@@ -1,5 +1,6 @@
 array=(
   'UPDATE_PACKAGES;programs/update_packages.sh;'
+  'REQUIRED_LIBS;programs/required_libs.sh;'
 )
 
 yellow=`tput setaf 3`
