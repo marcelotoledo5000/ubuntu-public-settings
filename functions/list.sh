@@ -4,4 +4,5 @@ list=(
   'GIT;programs/git.sh;without_command git'
   'CHROME;programs/chrome.sh;without_source google-chrome arch=amd64'
   'VSCODE;programs/vscode.sh;without_command code'
+  'POSTMAN;programs/postman.sh;without_command postman'
 )
