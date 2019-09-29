@@ -1,27 +1,42 @@
 array=(
   'UPDATE_PACKAGES;programs/update_packages.sh;'
   'REQUIRED_LIBS;programs/required_libs.sh;'
+  'GIT;programs/git.sh;git'
 )
 
 yellow=`tput setaf 3`
 green=`tput setaf 2`
 reset=`tput sgr0`
 
+function echosl() {
+  echo "${green}--------------------------------------------------------------------------------------------${reset}"
+}
+
+function echowl() {
+  echo "${yellow}--------------------------------------------------------------------------------------------${reset}"
+}
+
 function echow() {
-  echo "${yellow}------------------------ $1 ------------------------${reset}"
+  echowl
+  echo "${yellow}                         $1                         ${reset}"
+  echowl
 }
 
 function echos() {
-  echo "${green}------------------------ $1 ------------------------${reset}"
+  echosl
+  echo "${green}                         $1                         ${reset}"
+  echosl
 }
 
 function install(){
   if ! [ -x "$(command -v $3)" ]; then
-    echow "[INIT] INSTALLING $1"
+    echow "[INIT] - INSTALLING $1"
+
     bash $2
-    echos "[END] INSTALLING $1"
+
+    echos "[END]  - INSTALLING $1"
   else
-    echow "[INFO] $1 IS ALREADY INSTALLED"
+    echos "[INFO] - $1 IS ALREADY INSTALLED"
   fi
 }
 
