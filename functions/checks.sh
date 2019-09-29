@@ -11,3 +11,8 @@ function check_bashrc() {
   PKG_OK=$(cat ~/.bashrc | grep "$1")
   [ "$PKG_OK" == "" ]
 }
+
+function check_asdf() {
+  PKG_OK=$(asdf where $1 $2 | grep "Version not installed")
+  [ "$PKG_OK" != "" ]
+}

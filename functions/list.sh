@@ -18,6 +18,7 @@ list=(
 
   # ASDF
   'ASDF;asdf/asdf.sh;check_command asdf'
+  'ERLANG_22.1.1;asdf/erlang/v22.1.1.sh;check_asdf erlang 22.1.1'
 
   # BASHS
   'GIT_BASHRC;bash/git.sh;check_bashrc functions/git.sh'
