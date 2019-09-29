@@ -10,7 +10,7 @@ function install(){
 }
 
 function setup(){
-  for i in "${array[@]}"; do
+  for i in "${list[@]}"; do
     OIFS=$IFS
     IFS=';'
     spo_array=($i)
