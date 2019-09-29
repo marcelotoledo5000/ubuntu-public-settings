@@ -1,4 +1,6 @@
-array=()
+array=(
+  'UPDATE_PACKAGES;programs/update_packages.sh;'
+)
 
 yellow=`tput setaf 3`
 green=`tput setaf 2`
