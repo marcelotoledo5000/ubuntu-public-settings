@@ -10,4 +10,5 @@ list=(
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
   'MYSQL;programs/mysql.sh;check_command mysql'
   'POSTGRES;programs/postgres.sh;check_command psql'
+  'REDIS;programs/redis.sh;check_command redis-server'
 )
