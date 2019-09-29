@@ -2,24 +2,14 @@ yellow=`tput setaf 3`
 green=`tput setaf 2`
 reset=`tput sgr0`
 
-function echosl() {
-  echo "${green}--------------------------------------------------------------------------------------------${reset}"
+function echol(){
+  echo "$1-------------------------------------------------------------------------------------------------------------------------------------${reset}"
 }
 
-function echowl() {
-  echo "${yellow}--------------------------------------------------------------------------------------------${reset}"
-}
-
-function echow() {
-  echowl
-  echo "${yellow}                         $1                         ${reset}"
-  echowl
-}
-
-function echos() {
-  echosl
-  echo "${green}                         $1                         ${reset}"
-  echosl
+function echoc() {
+  echol $1
+  echo "$1 $2 ${reset}"
+  echol $1
 }
 
 function without_command() {
@@ -31,22 +21,25 @@ function without_source() {
   [ "$PKG_OK" == "" ]
 }
 
+function without_bashrc() {
+  PKG_OK=$(cat ~/.bashrc | grep "$1")
+  [ "$PKG_OK" == "" ]
+}
+
 array=(
-  'UPDATE_PACKAGES;programs/update_packages.sh;'
-  'REQUIRED_LIBS;programs/required_libs.sh;'
+  'UPDATE_PACKAGES;programs/update_packages.sh;true'
+  'REQUIRED_LIBS;programs/required_libs.sh;true'
   'GIT;programs/git.sh;without_command git'
 )
 
 function install(){
-  # echo "params: $1 $2 $3 $4 $5 | check: $3 $4 $5"
+  params="params: $1 | $2 | $3 $4 $5"
   if eval "$3 $4 $5"; then
-    echow "[INIT] - INSTALLING $1"
-
+    echoc ${yellow} "[INIT] - INSTALLING $1 - $params"
     bash $2
-
-    echos "[END]  - INSTALLING $1"
+    echoc ${green}  "[END]  - INSTALLING $1 - $params"
   else
-    echos "[INFO] - $1 IS ALREADY INSTALLED"
+    echoc ${green}  "[INFO] - $1 IS ALREADY INSTALLED - $params"
   fi
 }
 
