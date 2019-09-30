@@ -21,3 +21,7 @@ function check_apt_policy() {
   PKG_OK=$(echo $(apt-cache policy $1) | grep "$1:")
   [ "$PKG_OK" == "" ]
 }
+
+function check_file(){
+  ! [ -f $1 ]
+}

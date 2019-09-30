@@ -11,6 +11,7 @@ list=(
   'GITKRAKEN;programs/gitkraken.sh;check_command gitkraken'
   'SPOTIFY;programs/spotify.sh;check_command spotify'
   'TUSK;programs/tusk.sh;check_command tusk'
+  'HYPER;programs/hyper.sh;check_command hyper'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
