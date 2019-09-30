@@ -21,6 +21,6 @@ function echol(){
 
 function echoc() {
   echol $1
-  echo "$1 $2 ${reset}"
+  echo "$1 [$2] $3 ${reset}"
   echol $1
 }
