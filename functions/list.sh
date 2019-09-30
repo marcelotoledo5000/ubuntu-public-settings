@@ -58,4 +58,5 @@ list=(
   "SECRET;$SETTINGS_PRIVATE_PATH/projects/secret.sh;check_file $PET_PATH/secret/.gitignore"
   "KANGAROO;$SETTINGS_PRIVATE_PATH/projects/kangaroo.sh;check_file $PET_PATH/kangaroo/.gitignore"
   "EB_RACCOON;$SETTINGS_PRIVATE_PATH/projects/eb_raccoon.sh;check_file $EB_PATH/raccoon/.gitignore"
+  "GREYHOUND;$SETTINGS_PRIVATE_PATH/projects/greyhound.sh;check_file $PET_PATH/greyhound/.gitignore"
 )
