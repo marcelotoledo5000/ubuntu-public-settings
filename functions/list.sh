@@ -30,4 +30,7 @@ list=(
 
   # BASHS
   'GIT_BASHRC;bash/git.sh;check_bashrc functions/git.sh'
+
+  # STUFF
+  'CARGO;stuff/cargo.sh;check_command cargo'
 )
