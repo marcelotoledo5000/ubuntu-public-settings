@@ -36,7 +36,8 @@ list=(
   'RUBY_2.6.4;asdf/ruby/v2.6.4.sh;check_asdf ruby 2.6.4'
 
   # BASHS
-  'GIT_BASHRC;bash/git.sh;check_bashrc functions/git.sh'
+  'GIT_BASHS;bash/git.sh;check_bashrc functions/git.sh'
+  'RAILS_BASHS;bash/rails.sh;check_bashrc functions/rails.sh'
 
   # STUFF
   'CARGO;stuff/cargo.sh;check_command cargo'
@@ -45,4 +46,8 @@ list=(
 
   # CONFIGS
   "EB_PROFILE;$SETTINGS_PRIVATE_PATH/configs/eb_profile.sh;check_file ~/.aws/config"
+
+  # PROJECTS
+  "KANGAROO;$SETTINGS_PRIVATE_PATH/projects/kangaroo.sh;check_file
+  $PET_PATH/kangaroo/.gitignore"
 )

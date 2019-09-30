@@ -1,4 +1,5 @@
 export REPO_PATH=$HOME/workspace/linqueta/
+export PET_PATH=$HOME/workspace/petlove/
 export SETTINGS_PUBLIC_PATH=$REPO_PATH/ubuntu-public-settings
 export SETTINGS_PRIVATE_PATH=$REPO_PATH/ubuntu-private-settings
 export SETTINGS_ECHO=$SETTINGS_PUBLIC_PATH/functions/echo.sh
