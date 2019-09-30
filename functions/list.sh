@@ -17,6 +17,7 @@ list=(
   'EB;programs/eb.sh;check_bashrc .ebcli-virtual-env/executables'
   'KUBECTL;programs/kubectl.sh;check_command kubectl'
   'GCLOUD;programs/gcloud.sh;check_command gcloud'
+  'CLICK;programs/click.sh;check_bashrc "click=~/.click/"'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
