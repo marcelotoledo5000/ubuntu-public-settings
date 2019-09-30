@@ -14,6 +14,7 @@ list=(
   'HYPER;programs/hyper.sh;check_command hyper'
   'DOCKER;programs/docker.sh;check_command docker'
   'DOCKER_COMPOSE;programs/docker-compose.sh;check_command docker-compose'
+  'ELASTIC_BEANSTALK;programs/eb.sh;check_bashrc  .ebcli-virtual-env/executables'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
