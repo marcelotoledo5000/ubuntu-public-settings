@@ -16,6 +16,7 @@ list=(
   'DOCKER_COMPOSE;programs/docker-compose.sh;check_command docker-compose'
   'EB;programs/eb.sh;check_bashrc .ebcli-virtual-env/executables'
   'KUBECTL;programs/kubectl.sh;check_command kubectl'
+  'GCLOUD;programs/gcloud.sh;check_command gcloud'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
