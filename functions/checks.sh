@@ -16,3 +16,8 @@ function check_asdf() {
   PKG_OK=$(asdf where $1 $2 | grep "Version not installed")
   [ "$PKG_OK" != "" ]
 }
+
+function check_apt_policy() {
+  PKG_OK=$(echo $(apt-cache policy $1) | grep "$1:")
+  [ "$PKG_OK" == "" ]
+}

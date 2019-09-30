@@ -33,4 +33,5 @@ list=(
 
   # STUFF
   'CARGO;stuff/cargo.sh;check_command cargo'
+  'PAPER;stuff/paper.sh;check_apt_policy paper-icon-theme'
 )
