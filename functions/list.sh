@@ -51,6 +51,7 @@ list=(
   "AWS_CREDENTIAL;$SETTINGS_PRIVATE_PATH/configs/aws_credentials.sh;check_file  ~/.aws/credentials"
   "EB_PROFILE;$SETTINGS_PRIVATE_PATH/configs/eb_profile.sh;check_file ~/.aws/config"
   "KUBECTL_CONFIG;$SETTINGS_PRIVATE_PATH/configs/kubectl_config.sh;check_file ~/.kube/config"
+  "GCLOUD_CONFIG;$SETTINGS_PRIVATE_PATH/configs/gcloud_config.sh;check_file ~/.gcloud_config"
 
   # PROJECTS
   "SECRET;$SETTINGS_PRIVATE_PATH/projects/secret.sh;check_file $PET_PATH/secret/.gitignore"
