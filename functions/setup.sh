@@ -9,7 +9,7 @@ function install(){
   fi
 }
 
-function setup(){
+function run(){
   counter=0
   for i in "${list[@]}"; do
     OIFS=$IFS

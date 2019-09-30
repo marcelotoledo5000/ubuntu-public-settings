@@ -29,6 +29,7 @@ list=(
   'RUST_1.37.0;asdf/rust/v1.37.0.sh;check_asdf rust 1.37.0'
   'NODEJS_10.16.0;asdf/nodejs/v10.16.0.sh;check_asdf nodejs 10.16.0'
   'RUBY_2.2.10;asdf/ruby/v2.2.10.sh;check_asdf ruby 2.2.10'
+  'RUBY_2.3.1;asdf/ruby/v2.3.1.sh;check_asdf ruby 2.3.1'
   'RUBY_2.5.1;asdf/ruby/v2.5.1.sh;check_asdf ruby 2.5.1'
   'RUBY_2.6.2;asdf/ruby/v2.6.2.sh;check_asdf ruby 2.6.2'
   'RUBY_2.6.3;asdf/ruby/v2.6.3.sh;check_asdf ruby 2.6.3'
@@ -43,5 +44,5 @@ list=(
   'PAPER;stuff/paper.sh;check_apt_policy paper-icon-theme'
 
   # CONFIGS
-  "EB_PROFILE;p_path/configs/eb_profile.sh;check_file ~/.aws/config"
+  "EB_PROFILE;$SETTINGS_PRIVATE_PATH/configs/eb_profile.sh;check_file ~/.aws/config"
 )

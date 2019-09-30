@@ -6,7 +6,7 @@ sudo sh -c "echo '\n# REMOVE THIS LINE BELOW:\ndeb http://security.ubuntu.com/ub
 sudo apt-get update
 sudo apt-get install -y libssl1.0-dev
 
-asdf install ruby 2.2.10
+asdf install ruby 2.3.1
 
 asdf reshim
 

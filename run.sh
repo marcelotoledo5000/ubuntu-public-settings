@@ -8,4 +8,4 @@ export SETTINGS_ECHO=$SETTINGS_PUBLIC_PATH/functions/echo.sh
 . $SETTINGS_PUBLIC_PATH/functions/list.sh
 . $SETTINGS_PUBLIC_PATH/functions/setup.sh
 
-setup
+run
