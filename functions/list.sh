@@ -36,6 +36,7 @@ list=(
   'RUBY_2.6.4;asdf/ruby/v2.6.4.sh;check_asdf ruby 2.6.4'
 
   # BASHS
+  'HOSTS;bash/hosts.sh;check_hosts local.linqueta'
   'GIT_BASHS;bash/git.sh;check_bashrc functions/git.sh'
   'RAILS_BASHS;bash/rails.sh;check_bashrc functions/rails.sh'
 
