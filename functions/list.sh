@@ -45,9 +45,11 @@ list=(
   'PAPER;stuff/paper.sh;check_apt_policy paper-icon-theme'
 
   # CONFIGS
+  "AWS_CREDENTIAL;$SETTINGS_PRIVATE_PATH/configs/aws_credentials.sh;check_file  ~/.aws/credentials"
   "EB_PROFILE;$SETTINGS_PRIVATE_PATH/configs/eb_profile.sh;check_file ~/.aws/config"
 
   # PROJECTS
-  "KANGAROO;$SETTINGS_PRIVATE_PATH/projects/kangaroo.sh;check_file
-  $PET_PATH/kangaroo/.gitignore"
+  "SECRET;$SETTINGS_PRIVATE_PATH/projects/secret.sh;check_file $PET_PATH/secret/.gitignore"
+  "KANGAROO;$SETTINGS_PRIVATE_PATH/projects/kangaroo.sh;check_file $PET_PATH/kangaroo/.gitignore"
+  "EB_RACCOON;$SETTINGS_PRIVATE_PATH/projects/eb_raccoon.sh;check_file $EB_PATH/raccoon/.gitignore"
 )
