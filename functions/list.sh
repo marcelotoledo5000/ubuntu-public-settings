@@ -9,6 +9,7 @@ list=(
   'VSCODE;programs/vscode.sh;check_command code'
   'POSTMAN;programs/postman.sh;check_command postman'
   'GITKRAKEN;programs/gitkraken.sh;check_command gitkraken'
+  'SPOTIFY;programs/spotify.sh;check_command spotify'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
