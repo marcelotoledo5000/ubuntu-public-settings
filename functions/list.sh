@@ -17,7 +17,6 @@ list=(
   'EB;programs/eb.sh;check_bashrc .ebcli-virtual-env/executables'
   'KUBECTL;programs/kubectl.sh;check_command kubectl'
   'GCLOUD;programs/gcloud.sh;check_command gcloud'
-  'CLICK;programs/click.sh;check_bashrc "click=~/.click/"'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
@@ -45,6 +44,7 @@ list=(
 
   # STUFF
   'CARGO;stuff/cargo.sh;check_command cargo'
+  'CLICK;stuff/click.sh;check_bashrc "click=~/.click/"'
   'TWEAK;stuff/tweak.sh;check_apt_policy gnome-tweak-tool'
   'PAPER;stuff/paper.sh;check_apt_policy paper-icon-theme'
 
