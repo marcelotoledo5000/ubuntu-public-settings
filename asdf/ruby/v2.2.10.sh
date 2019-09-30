@@ -1,5 +1,7 @@
 cd
 
+asdf plugin-add ruby https://github.com/asdf-vm/asdf-ruby.git
+
 sudo sh -c "echo '\n# REMOVE THIS LINE BELOW:\ndeb http://security.ubuntu.com/ubuntu bionic-security main' >> /etc/apt/sources.list"
 sudo apt-get update
 sudo apt-get install -y libssl1.0-dev
