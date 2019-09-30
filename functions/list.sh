@@ -33,5 +33,6 @@ list=(
 
   # STUFF
   'CARGO;stuff/cargo.sh;check_command cargo'
+  'TWEAK;stuff/tweak.sh;check_apt_policy gnome-tweak-tool'
   'PAPER;stuff/paper.sh;check_apt_policy paper-icon-theme'
 )
