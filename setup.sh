@@ -1,9 +1,11 @@
-export SETTINGS_ROOT=$HOME/workspace/linqueta/ubuntu-public-settings
-export SETTINGS_ECHO=$SETTINGS_ROOT/functions/echo.sh
+export REPO_PATH=$HOME/workspace/linqueta/
+export SETTINGS_PUBLIC_PATH=$REPO_PATH/ubuntu-public-settings
+export SETTINGS_PRIVATE_PATH=$REPO_PATH/ubuntu-private-settings
+export SETTINGS_ECHO=$SETTINGS_PUBLIC_PATH/functions/echo.sh
 
 . $SETTINGS_ECHO
-. $SETTINGS_ROOT/functions/checks.sh
-. $SETTINGS_ROOT/functions/list.sh
-. $SETTINGS_ROOT/functions/setup.sh
+. $SETTINGS_PUBLIC_PATH/functions/checks.sh
+. $SETTINGS_PUBLIC_PATH/functions/list.sh
+. $SETTINGS_PUBLIC_PATH/functions/setup.sh
 
 setup

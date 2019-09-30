@@ -14,7 +14,7 @@ list=(
   'HYPER;programs/hyper.sh;check_command hyper'
   'DOCKER;programs/docker.sh;check_command docker'
   'DOCKER_COMPOSE;programs/docker-compose.sh;check_command docker-compose'
-  'ELASTIC_BEANSTALK;programs/eb.sh;check_bashrc  .ebcli-virtual-env/executables'
+  'EB;programs/eb.sh;check_bashrc .ebcli-virtual-env/executables'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
@@ -41,4 +41,7 @@ list=(
   'CARGO;stuff/cargo.sh;check_command cargo'
   'TWEAK;stuff/tweak.sh;check_apt_policy gnome-tweak-tool'
   'PAPER;stuff/paper.sh;check_apt_policy paper-icon-theme'
+
+  # CONFIGS
+  "EB_PROFILE;p_path/configs/eb_profile.sh;check_file ~/.aws/config"
 )
