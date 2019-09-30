@@ -1,5 +1,5 @@
 function install(){
-  params="PARAMS: [$1] $2 | $3 | $4 $5 $6"
+  params="PARAMS: $2 | $3 | $4 $5 $6"
   if eval "$4 $5 $6"; then
     echoc ${yellow} $1 "[INIT] - INSTALLING ${white}$2${yellow} - $params"
     bash $3

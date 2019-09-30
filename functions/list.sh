@@ -12,6 +12,7 @@ list=(
   'SPOTIFY;programs/spotify.sh;check_command spotify'
   'TUSK;programs/tusk.sh;check_command tusk'
   'HYPER;programs/hyper.sh;check_command hyper'
+  'DOCKER;programs/docker.sh;check_command docker'
 
   # DATABASES
   'SQLITE;programs/sqlite.sh;check_command sqlite3'
