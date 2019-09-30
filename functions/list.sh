@@ -24,6 +24,7 @@ list=(
   'NODEJS_10.16.0;asdf/nodejs/v10.16.0.sh;check_asdf nodejs 10.16.0'
   'RUBY_2.2.10;asdf/ruby/v2.2.10.sh;check_asdf ruby 2.2.10'
   'RUBY_2.5.1;asdf/ruby/v2.5.1.sh;check_asdf ruby 2.5.1'
+  'RUBY_2.6.2;asdf/ruby/v2.6.2.sh;check_asdf ruby 2.6.2'
 
   # BASHS
   'GIT_BASHRC;bash/git.sh;check_bashrc functions/git.sh'
